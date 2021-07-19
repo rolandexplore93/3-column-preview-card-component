@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-shadow: box-sizing;
+}
+:root {
+
+}
+html {
+    display: block;
+}
+body {
+    background: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    /* width: 1440px; */
+    /* Items flexing stop working when i add width to the body or wrapper class */
+    margin: 8px;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+    height: 550px;
+    
+    /* text-align: center; */
+    margin: 150px 0 120px 0;
+}
+@media (max-width: 375px){
+    .wrapper {
+        flex-direction: column;
+        margin: 5px;
+    }
+}
+/* @media (max-width:1440px){
+    .wrapper {
+        flex-direction: row;
+    }
+} */
+.wrapper > * {
+    /* border: 1px solid red; */
+    padding: 60px 60px 0px 55px;
+    color: #fff;
+    position: relative;
+    line-height: 1.5;
+}
+div > h1 {
+    padding-bottom: 20px;
+}
+div > p {
+    padding-bottom: 75px;
+    font-family: Lexend Deca;
+    weight: 400px;
+    letter-spacing: 2px;
+}
+    .wrapper_element1 {
+        background-color: hsl(31, 77%, 52%);
+        /* flex: 1; */
+        width: 235px;
+        border-top-left-radius: 7px;
+        border-bottom-left-radius: 7px;
+    }
+     /* .wrapper_element1 > p {
+     } */
+
+    .wrapper_element2 {
+        background-color: hsl(184, 100%, 22%);
+        /* flex: 1; */
+        width: 235px;
+    }
+
+    .wrapper_element3 {
+        background-color: hsl(179, 100%, 13%);
+        border-top-right-radius: 7px;
+        border-bottom-right-radius: 7px;
+        /* flex: 1; */
+        width: 235px;
+    }
+    img {
+        margin-bottom: 20px;
+    }
+    h1 {
+        font-family: Big Shoulders Display;
+        font-weight: 700px;
+        font-size: 43px;
+    }
+    button {
+        width: 150px;
+        height: 50px;
+        border: 0;
+        color: hsl(31, 77%, 52%);
+        border-radius: 25px;
+        margin-top: 20px;
+        /* position: relative;
+        top: 20px; */
+    }
+footer {
+    /* height: 90px; */
+    /* border: 1px solid red; */
+}
+.column_card-footer {
+    /* align-items: center; */
+    text-align: center;
+    /* position: relative;
+    left: 550px; */
+}
