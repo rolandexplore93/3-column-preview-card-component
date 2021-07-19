@@ -3,9 +3,7 @@
     padding: 0;
     box-shadow: box-sizing;
 }
-:root {
 
-}
 html {
     display: block;
 }
@@ -39,7 +37,7 @@ div > h1 {
 div > p {
     padding-bottom: 75px;
     font-family: Lexend Deca;
-    weight: 400px;
+    font-weight: 400px;
     letter-spacing: 2px;
 }
     .wrapper_element1 {
